@@ -13,7 +13,6 @@ int main(void)
 	{
 		if (chN == 101 || chN == 113)
 			{
-			chN++;
 			continue;
 			}
 		putchar(chN);
