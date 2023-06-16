@@ -1,10 +1,9 @@
 #include <stdio.h>
-
 /**
  * main - is the startting point of my program
  * Description: prints the lowercase alphabet in reverse,
  * followed by a new line
- * Return:
+ * Return: is 0
  */
 int main(void)
 {
