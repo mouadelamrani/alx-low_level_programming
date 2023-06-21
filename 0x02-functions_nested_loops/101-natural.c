@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - 
+ * main - the strating point
  * Description: print all the natural numbers below 1024
  * that are multiples of 3 or 5.
  * Return: 0
