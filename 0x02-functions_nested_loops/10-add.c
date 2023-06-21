@@ -2,7 +2,7 @@
 
 /**
  * add - The starting point
- * Description: this function prints 
+ * Description: this function prints the sum of n1 and n2
  * Return: void
  */
 
