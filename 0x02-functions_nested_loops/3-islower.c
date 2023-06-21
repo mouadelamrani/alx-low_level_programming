@@ -2,7 +2,7 @@
 
 /**
  *  _islower - is the starting point of the program
- * @c: is the parametre that is checked 
+ * @c: is the parametre that is checked
  * Description: this program prints 1 if c is lowercase and 0 if otherwise
  * Return: 0
  */
