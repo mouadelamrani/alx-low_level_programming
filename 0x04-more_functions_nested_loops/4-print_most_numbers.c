@@ -1,11 +1,11 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
- * print_most_ns - prints n
+ * print_most_numbers - prints n
  * description: prints n starting from 0 to 9 except for 2 and 4
  */
 
-void print_most_ns(void)
+void print_most_numbers(void)
 {
 	char n;
 
@@ -13,7 +13,9 @@ void print_most_ns(void)
 	while (n <= '9')
 	{
 		if (n == '2' || n == '4')
+		{
 			n++;
+		}
 		_putchar(n);
 		n++;
 	}
