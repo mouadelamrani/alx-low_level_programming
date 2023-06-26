@@ -16,7 +16,7 @@ void print_rev(char *str)
 	/**
 	  * the "i--" is the for the auto added line
 	  */
-	i--; 
+	i--;
 	while (i >= 0)
 	{
 		_putchar(str[i]);
