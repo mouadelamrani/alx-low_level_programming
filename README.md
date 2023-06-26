@@ -1,1 +1,1 @@
-This repo is for my low programming practice.
+This is the alx-low_level_programming
