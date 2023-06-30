@@ -4,7 +4,6 @@
  * @dest: the destination string
  * @src: the source string
  * @n: the number of bytes
- * @i: the number of iterations
  * Return: dest
  */
 
