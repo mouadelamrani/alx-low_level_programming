@@ -1,42 +1,29 @@
 #include "main.h"
-#include <stdio.h>
 /**
- * leet - this function converts specific characters to 4-3-0-7-1
- * @s: the string to iterate through
- * Return: return the converted string
- **/
-
-char *leet(char *s)
+ * leet - this function encodes a string into 1337
+ * @str: character to be checked
+ * Return: if seperator return 1. Otherwise return 0;
+ */
+char *leet(char *str)
 {
-	int i = 0;
-	int j = 0;
-	char leet[11] = "aAeEoOtTlL";
-	int convert[5] = {4, 3, 0, 7, 1};
+	int count = 0, i = 0;
+	char *letters = "aeotlAEOTL";
+	char *nums = "4307143071";
 
-
-	while (s[i])
+	while (str[count] != '\0')
 	{
-		j = 0;
-		while (leet[j])
+		i = 0;
+		while (letters[i] != '\0')
 		{
-			if (s[i] == leet[j])
-			{
-				s[i] = convert[j / 2] + 48;
-			}
-			j++;
+			if (str[count] == letters[i])
+				str[count] = nums[i];
+			i++;
 		}
-		i++;
+		count++;
 	}
-	return (s);
+
+	return (str);
 }
 
-int main(void)
-{
-    char s[] = "Expect the best. Prepare for the worst. Capitalize on what comes.\n";
-    char *p;
 
-    p = leet(s);
-    printf("%s", p);
-    printf("%s", s);
-    return (0);
-}
+
